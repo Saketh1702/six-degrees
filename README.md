@@ -126,7 +126,7 @@ There are numerous ways I can further improve Six Degrees of Spotify. Below are 
 
    One way to do this is to automate a process once-a-week to fetch new songs from the Spotify API via the weekly hot playlists which often feature new music. This way the database stays up to date with music that 80% of people will search for.
 
-3. As a user, I want to create a playlist that has smooth transitions between two of my favourite artists using the collaboration songs between them. (feature)
+3. As a user, I wanted to create a playlist that has smooth transitions between two of my favourite artists using the collaboration songs between them. (feature)
 
    Similar to [Boil the Frog](http://boilthefrog.playlistmachinery.com) but using collaboration songs instead of artist similarity, this feature would allow the user to create a seamless playlist between two artists based on collaboration songs and other songs to help fill up the playlist. This would be relatively simple to do given the data I have collected and the fact that the Spotify API allows developers to create and save playlists to user accounts after authentication.
 
