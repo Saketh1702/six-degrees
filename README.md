@@ -6,7 +6,7 @@
 
 Six Degrees is a website that demonstrates that a musician is connected to almost every other musician through a chain of collaborations, typically with less than 5 artists in between two of them. From Paul McCartney to BLACKPINK to Ed Sheeran, this web of connections can be explored by searching for two artists. This website was inspired by the title of The Script's [Six Degrees of Separation](https://open.spotify.com/track/0Sayb1EWTywPttwJo7zjBt?si=P14dbX1aQYa5b4QtW3V9gA) song.
 
-The data used for this site is from [Spotify's API](https://developer.spotify.com) and gathered as of July 2020. It was created using Java Spring Boot, the Vaadin UI framework, and a Neo4j graph database.
+The data used for this site is from [Spotify's API](https://developer.spotify.com) and gathered as of December 2024. It was created using Java Spring Boot, the Vaadin UI framework, and a Neo4j graph database.
 
 \*Unfortunately, the Neo4j database requires too much server storage and RAM to run properly using free services. I am currently looking for a solution and hope to find an easy way to run it on the web.
 
@@ -122,7 +122,7 @@ There are numerous ways I can further improve Six Degrees of Spotify. Below are 
 
 2. New music comes out frequently, as a user, I want to see the latest collaboration songs appear when I search for certain connections. (staying up to date)
 
-   My next prioritization is to ensure the database of songs and collaborations stays up to date since my database is only current as of July 2020. This ensures that when someone searches up an artist with a new collaboration song, the song is recognized as a linker and may help to connect two artists if they were not connected before.
+   My next prioritization is to ensure the database of songs and collaborations stays up to date since my database is only current as of December 2024. This ensures that when someone searches up an artist with a new collaboration song, the song is recognized as a linker and may help to connect two artists if they were not connected before.
 
    One way to do this is to automate a process once-a-week to fetch new songs from the Spotify API via the weekly hot playlists which often feature new music. This way the database stays up to date with music that 80% of people will search for.
 
